@@ -2,7 +2,7 @@ autoload -U zmv
 
 ls_opts='--almost-all --classify --group-directories-first --color=always'
 
-alias ls="ls ${ls_opts}"
+alias ls="gls ${ls_opts}"
 alias ll="gls ${ls_opts} -l"
 alias l="gls ${ls_opts}"
 

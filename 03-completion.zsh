@@ -16,3 +16,6 @@ if [[ -d "/usr/local/share/zsh-completions" ]]; then
 fi
 
 compinit
+
+bashcompinit -i
+complete -C aws_completer aws
